@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://rsms.me/inter/inter.css');
+@supports (font-variation-settings: normal) {
+	html {font-family:'Inter var', sans-serif;}
+}
+
+:root {
+	--bg: #f5f5f5;
+	--border: #eaeaea;
+	
+	--accent: #dba4f2;
+	--purple1: #c2a4cf;
+	--purple2: #e9cfe5;
+	--purple3: #78529b;
+	--gold: #bc9862;
+	--text: #808080;
+	
+	--world: #e979c4;
+	
+	--fool: #fe5655;
+	--magician: #fd5c52;
+	--priestess: #fd6f46;
+	--empress: #fc8439;
+	--emperor: #fb982f;
+	--hierophant: #faab2f;
+	--lovers: #fab82e;
+	--chariot: #fab82e;
+	--justice: #ffb358;
+	--hermit: #ffa877;
+	--fortune: #ff9e95;
+	--strength: #ff90b9;
+	--hanged: #ff86d8;
+	--death: #ff80f2;
+	--temperance: #f882fb;
+	--devil: #df8afb;
+	--tower: #bf97fb;
+	--star: #99a9fb;
+	--moon: #77b9fa;
+	--sun: #58c7fa;
+	--judgement: #3ed4f7;
+	
+	--spread: url(https://files.jcink.net/uploads2/luminal/svg/spread.svg);
+	--spellbook: url(https://files.jcink.net/uploads2/luminal/svg/spellbook.svg);
+	--scroll: url(https://files.jcink.net/uploads2/luminal/svg/scroll.svg);
+	--magic: url(https://files.jcink.net/uploads2/luminal/svg/magic.svg);
+	--crystalball: url(https://files.jcink.net/uploads2/luminal/svg/fortune.svg);
+	--soulgem: url(https://files.jcink.net/uploads2/luminal/svg/soulgem.svg);
+}
+
+body { 
+	padding: 0; margin: 0;
+	font-family: 'Inter', sans-serif;
+	font-size: 11px;
+	color: var(--text);
+	background-color: #f5f5f5;
+	background-image: url(https://i.ibb.co/m54Pm2g/image.png);
+	background-blend-mode: darken;
+	background-attachment: fixed;
+	will-change: opacity;
+}
+
+a:link, a:active, a:visited {
+	color: var(--accent);
+	text-decoration: none;
+	transition: all ease 0.25s;
+}
+
+a:hover { color: var(--text); }
+
+#luminalcontainer {
+	background-color: #fefefe;
+	margin: 0px auto;
+	width: 950px;
+	height: 100%;
+	border-radius: 0px;
+	display: flex;
+	justify-content: space-between;
+	box-shadow: -10px -10px 30px #00000010;
+	box-sizing: border-box;
+	position: relative;
+}
+
+#wrapper { padding: 30px; width: 100%; box-sizing: border-box;}
+
+
+.lumgen {
+	width: 549px;
+	border: 1px solid var(--border);
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+.lumgen-c {
+	border: 1px solid var(--border);
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.lumgc-head {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+	padding: 85px 50px 50px 50px;
+	position: relative;
+}
+
+.lumgc-header {
+	position: absolute;
+	width: 100%;
+	background-color: #fbfbfb;
+	border-bottom: 1px solid var(--border);
+	top: 0;
+	left: 0;
+	padding: 0px 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 35px;
+	box-sizing: border-box;
+	color: #d4d4d4;
+}
+
+.lumgc-btn span {
+	display: inline-block;
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	margin-right: 5px;
+}
+
+.lumgcb1 { background-color: var(--purple1); }
+.lumgcb2 { background-color: var(--purple2); }
+.lumgcb3 { background-color: var(--accent); }
+
+.lumgc-header b {
+	margin-left: 20px;
+	font-size: 8px;
+	font-weight: 800;
+	letter-spacing: 1px;
+}
+
+.lgch-icon {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border: 1px solid var(--border);
+	padding: 5px;
+}
+
+.lgch-icon1 {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-color: white;
+}
+
+.lgch-title {
+	position: relative;
+	font-family: Playfair Display;
+	font-size: 36px;
+	line-height: 80%;
+	font-weight: 900;
+	width: 310px;
+	color: var(--gold);
+	text-transform: uppercase;
+}
+
+.lgch-title span {
+	font-size: 11px;
+	margin-top: 10px;
+	line-height: 11px;
+	display: block;
+	font-family: Montserrat;
+	font-weight: 700;
+	color: #aeaeae;
+	letter-spacing: 1px;
+}
+
+.lumgc-main {
+	border-top: 1px solid var(--border);
+	box-sizing: border-box;
+	width: 100%;
+	padding: 50px 70px;
+}
+
+.lumgc-main h1 {
+	margin: 20px 0 0 0; padding: 0;
+	font-family: Playfair Display;
+	font-weight: 900;
+	font-size: 30px;
+	font-style: italic;
+	text-transform: lowercase;
+	color: var(--purple1);
+}
+
+.lumgc-main h1:first-child { margin-top: 0px; }
+
+.lumgc-main h2 {
+	margin: 5px 0 0 0; padding: 0;
+	font-family: inter var;
+	font-size: 9px;
+	display: inline-block;
+	background-color: #5c5561;
+	color: #fbfbfb;
+	padding: 5px 10px;
+	letter-spacing: 1px;
+}
+
+.lumgc-main p {
+	line-height: 150%;
+	font-size: 9pt;
+	padding: 0;
+	margin: 10px 0px;
+}
+
+.lumgc-main b { 
+	color: var(--gold);
+	font-family: Playfair Display;
+	font-weight: 700;
+}
+
+.lumgc-main i {
+	font-family: Playfair Display;
+	font-weight: 700;
+	font-style: italic;
+	color: #aeaeae;
+}
+
+.lumgc-main blockquote {
+	margin: 20px 0; padding: 30px;
+	font-size: 11px;
+	line-height: 150%;
+	border: 1px solid var(--border);
+	text-align: justify;
+	color: #999;
+}
+
+.lumgc-main ul, .lumgc-main ol {
+	margin-block-start: 20px;
+ margin-block-end: 20px;
+ margin-inline-start: 0px;
+ margin-inline-end: 0px;
+ padding-inline-start: 20px;
+	font-size: 12px;
+	line-height: 150%;
+	list-style-type: none;
+}
+
+.lumgc-expo {
+	width: 100%;
+	height: 200px;
+	border-top: 1px solid var(--border);
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+.lumgc-ex-main {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	background-color: #fbfbfb80;
+	background-blend-mode: soft-light;
+	transition: all ease 0.4s;
+}
+
+.lumgen:hover .lumgc-ex-main {
+	background-color: transparent;
+}
+
+.lumgc-main li {
+	margin: 10px 0px;
+	position: relative;
+	display: flex;
+	text-align: center;
+}
+
+.lumgc-main li::before {
+	width: 20px;
+	height: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid var(--border);
+	margin-right: 20px;
+	box-sizing: border-box;
+	position: relative;
+	top: -1px;
+	font-size: 9px;
+}
+
+.lumgc-main ul li::before {
+	content: "\eb67";
+	font-family: honeybee;
+	color: var(--gold);
+}
+.lumgc-main ol {
+	counter-reset: lumgc;
+}
+
+.lumgc-main ol li::before {
+	content: counter(lumgc, decimal-leading-zero);
+	counter-increment: lumgc;
+	font-family: Montserrat;
+	font-weight: 700;
+	color: var(--purple1);
+}
+
+.lumgc-main hr {
+	border: 0px solid;
+	width: 100%;
+	height: 0px;
+	border-bottom: 1px dotted var(--purple2);
+	margin: 30px 0px;
+}
