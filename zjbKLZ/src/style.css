@@ -1,0 +1,14 @@
+body { background: #222; }
+
+#liampost { width: 500px; box-sizing: border-box; background: #111; margin: 30px auto; }
+
+.liamquote { display: table-cell; padding: 0px 30px; font-family: Roboto Mono; text-transform: uppercase; color: #555; font-size: 6pt; box-sizing: border-box; letter-spacing: 1px; line-height: 10pt; text-align: justify; background: #151515; vertical-align: middle; }
+.liamicon { display: table-cell; padding: 20px; background: #9c9c9c; }
+.liamicon img { display: block; width: 70px; height: 70px; transition: all ease 1s; filter: grayscale(100%); -webkit-filter: grayscale(100%); }
+.liamicon img:hover { filter: grayscale(0%); -webkit-filter: grayscale(0%); }
+
+.liamcontent { padding: 50px; color: #666; font-family: Roboto; font-size: 10px; text-align: justify; line-height: 160%; }
+.liamcontent b { color: #d96732; }
+
+.liamfooter { text-transform: uppercase; padding: 15px 30px; font-family: Roboto Condensed; background: #ff5722; color: #fff; font-size: 10pt; font-weight: 700; }
+.liamfooter span { float: right; }
