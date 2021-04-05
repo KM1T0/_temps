@@ -1,0 +1,179 @@
+body {
+	background: #222222;
+}
+
+a:link,
+a:visited {
+	color: #ccc;
+	text-decoration: none;
+}
+
+.scroll::-webkit-scrollbar {
+	width: 7px;
+}
+.scroll::-webkit-scrollbar-track {
+	background: #121212;
+}
+.scroll::-webkit-scrollbar-thumb {
+	background-color: #444;
+	border: 3px solid #121212;
+}
+
+.liam,
+.ingram,
+.valdis {
+	width: 600px;
+	height: 300px;
+	margin: 30px auto 0px auto;
+	background: #111111;
+	background: url(https://image.ibb.co/hOfqBT/image.png);
+	font-family: Roboto;
+	font-size: 11px;
+	overflow: hidden;
+}
+.wrap {
+	display: table-cell;
+	width: 400px;
+	height: 300px;
+	box-sizing: border-box;
+	padding: 30px;
+	background: #171717;
+	color: #bbb;
+	font-size: 10px;
+	text-align: justify;
+	line-height: 150%;
+}
+.wrap h1 {
+	color: #bbb;
+	margin: 0;
+	padding: 0;
+	font-family: Roboto Mono;
+	font-size: 11pt;
+}
+.wrap h2 {
+	color: #fff;
+	font-family: Roboto Condensed;
+	font-size: 8pt;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.scroll {
+	height: 240px;
+	overflow: auto;
+	padding-right: 20px;
+}
+.icon {
+	display: table-cell;
+	vertical-align: top;
+	text-align: center;
+	width: 200px;
+}
+.icon img {
+	display: block;
+	border: 10px solid #bbb;
+	margin: 40px;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	transition: all ease 1s;
+}
+
+.parameters {
+	position: relative;
+	z-index: 99;
+	width: 250px;
+	left: 350px;
+	top: -120px;
+	text-align: right;
+}
+.parameters hr {
+	padding: 0;
+	margin: 0;
+	border: 0px solid white;
+}
+.parameters h1 {
+	color: #fff;
+	font-family: Georgia;
+	font-size: 11px;
+	letter-spacing: 1px;
+	text-align: right;
+	padding-right: 15px;
+	font-weight: normal;
+	margin: 0;
+	font-style: italic;
+}
+
+.liam .wrap h1 {
+	color: rgba(217, 103, 50, 1);
+}
+.ingram .wrap h1 {
+	color: rgba(87, 126, 194, 1);
+}
+.valdis .wrap h1 {
+	color: rgba(84, 148, 84, 1);
+}
+
+.liam .parameters hr {
+	border-bottom: 1px solid rgba(217, 103, 50, 1);
+}
+.liam .ambition,
+.liam .loyalty,
+.liam .empathy {
+	border-top: 5px solid rgba(217, 103, 50, 0.25);
+	border-bottom: 5px solid rgba(217, 103, 50, 0.25);
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.ingram .parameters hr {
+	border-bottom: 1px solid rgba(87, 126, 194, 1);
+}
+.ingram .ambition,
+.ingram .loyalty,
+.ingram .empathy {
+	border-top: 5px solid rgba(87, 126, 194, 0.25);
+	border-bottom: 5px solid rgba(87, 126, 194, 0.25);
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.valdis .parameters hr {
+	border-bottom: 1px solid rgba(84, 148, 84, 1);
+}
+.valdis .ambition,
+.valdis .loyalty,
+.valdis .empathy {
+	border-top: 5px solid rgba(84, 148, 84, 0.25);
+	border-bottom: 5px solid rgba(84, 148, 84, 0.25);
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.liam .ambition {
+	width: 50%;
+}
+.liam .loyalty {
+	width: 90%;
+}
+.liam .empathy {
+	width: 30%;
+}
+
+.ingram .ambition {
+	width: 100%;
+}
+.ingram .loyalty {
+	width: 50%;
+}
+.ingram .empathy {
+	width: 66%;
+}
+
+.valdis .ambition {
+	width: 10%;
+}
+.valdis .loyalty {
+	width: 120%;
+}
+.valdis .empathy {
+	width: 33%;
+}
