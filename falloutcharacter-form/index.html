@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Fallout - Character Form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+<form action="" class="form_container">
+	<div class="three_grids grid_layout">
+		
+		<div class="grid_field">
+			<label for="first_name">
+				Nombre
+				<div class="muted">Obligatorio.</div>
+			</label>
+			<input type="text" name="first_name">
+		</div>
+		
+		<div class="grid_field">
+			<label for="last_name">
+				Apellido
+				<div class="muted">Obligatorio.</div>
+			</label>
+			<input type="text" name="last_name">
+		</div>
+		
+		<div class="grid_field">
+			<label for="nickname">
+				Apodo
+				<div class="muted">Representa el "nombre de usuario" de tu personaje.</div>
+			</label>
+			<input type="text" name="nickname">
+		</div>
+		
+	</div>
+	<div class="three_grids grid_layout">
+		
+		<div class="grid_field">
+			<label for="played_by">
+				Físico
+				<div class="muted">Persona que "dará vida" a tu personaje.</div>
+			</label>
+			<input type="text" name="played_by">
+		</div>
+		
+		<div class="grid_field">
+			<label for="age">
+				Edad
+				<div class="muted">Obligatorio.</div>
+			</label>
+			<input type="text" name="age">
+		</div>
+		
+		<div class="grid_field">
+			<label for="gender">
+				Sexo
+				<div class="muted">Obligatorio.</div>
+			</label>
+			<select name="gender">
+				<option selected="true" disabled="disabled">Elige una opción</option>
+				<option value="">Hombre</option>
+				<option value="">Mujer</option>
+				<option value="">Otro</option>
+			</select>
+		</div>
+		
+	</div>
+	<div class="three_grids grid_layout">
+		
+		<div class="grid_field">
+			<label for="nacionality">
+				Nacionalidad
+				<div class="muted">Obligatorio.</div>
+			</label>
+			<select name="nacionality">
+				<option selected="true" disabled="disabled">Elige una opción</option>
+				<option value="">Francia</option>
+				<option value="">Estados Unidos</option>
+				<option value="">Corea del Sur</option>
+			</select>
+		</div>
+		
+		<div class="grid_field">
+			<label for="group">
+				Grupo
+				<div class="muted">Consulta el listado de grupos para más información.</div>
+			</label>
+			<select name="group">
+				<option selected="true" disabled="disabled">Elige una opción</option>
+				<option value="">Hermandad del Acero</option>
+				<option value="">Gobierno Capital</option>
+				<option value="">Saqueadores</option>
+			</select>
+		</div>
+		
+		<div class="grid_field">
+			<label for="nacionality">
+				Rango
+				<div class="muted">Algunos rangos no están disponibles.</div>
+			</label>
+			<select name="nacionality">
+				<option selected="true" disabled="disabled">Elige una opción</option>
+				<option value="">Paladín</option>
+				<option value="">Vigilante</option>
+				<option value="">Supervisor</option>
+			</select>
+		</div>
+		
+	</div>
+	<div class="one_grid grid_layout">
+		
+		<div class="grid_field">
+			<label for="phrase">
+				Frase
+				<div class="muted">Opcional. Esta frase aparecerá en el contenedor de personajes de tu perfil.</div>
+			</label>
+			<textarea name="phrase" rows="1"></textarea>
+		</div>
+		
+	</div>
+	<div class="one_grid grid_layout">
+		
+		<div class="grid_field">
+			<label for="psychological">
+				Descripción psicológica
+				<div class="muted">Opcional.</div>
+			</label>
+			<textarea name="psychological" rows="10"></textarea>
+		</div>
+		
+	</div>
+	<div class="one_grid grid_layout">
+		
+		<div class="grid_field">
+			<label for="story">
+				Historia
+				<div class="muted">Debes tener en cuenta la ambientación del foro en todo momento.</div>
+			</label>
+			<textarea name="story" rows="15"></textarea>
+		</div>
+		
+	</div>
+	<div class="four_grids grid_layout">
+		
+		<div class="grid_field">
+			<label for="total">
+				Total
+			</label>
+			<input type="text" name="total" value="5" disabled>
+		</div>
+		
+		<div class="grid_field">
+			<label for="total">
+				Fuerza
+			</label>
+			<div class="calc">
+				<span>-</span>
+				<input type="text" name="total" value="5" readonly>
+				<span>+</span>
+			</div>
+		</div>
+		
+	</div>
+	<div class="one_grid grid_layout submit">
+		<div class="grid_field">
+			<input type="submit" value="crear personaje">
+		</div>
+	</div>
+</form>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
