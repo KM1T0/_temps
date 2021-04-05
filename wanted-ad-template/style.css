@@ -1,0 +1,17 @@
+body { background: #131313; }
+
+#wanted { width: 500px; box-sizing: border-box; background: #333333; margin: 50px auto; }
+
+#wanthead { background: #232222; padding: 100px 50px; display: table-cell; width: 500px; vertical-align: middle; font-family: Roboto Condensed; font-weight: 700; color: #bbb; font-size: 13px; -webkit-filter: grayscale(100%); filter: grayscale(100%); }
+#wanthead b { border-bottom: 3px solid #454545; padding-bottom: 5px; }
+
+#wantblurb { padding: 30px; font-family: Roboto; font-size: 11px; color: #868686; text-align: justify; }
+#wantblurb h1 { display: table-cell; vertical-align: middle;  margin: 0; padding: 8px 7px 8px 9px; border: 2px solid #444; margin-right: 10px; font-size: 10px; font-family: Roboto Mono; word-spacing: -3px; color: #bbb; letter-spacing: 3px;  }
+.trait { display: inline-block; text-transform: uppercase; font-family: Roboto Condensed; font-weight: 700; letter-spacing: 1px; color: #bbb; font-size: 10px; margin-right: 5px; }
+.trait:before { content: "#"; font-family: Roboto; font-weight: 900; font-size:15px; color: #616161; position: relative; top: 2px; }
+
+#wantblurb p { padding: 10px 0px 5px 0px; line-height: 160%; font-size: 11px; }
+
+#mood { width: 500px; box-sizing: border-box; background: #333333; margin: 50px auto; overflow: hidden }
+
+#moodheader { height: 250px; width: 515px; background: #222222; -webkit-filter: ; transform: rotate(-3deg); position: relative; top: -30px; left: -10px; }
