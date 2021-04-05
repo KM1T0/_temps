@@ -1,0 +1,138 @@
+@import url("https://use.typekit.net/olo2gmb.css");
+
+body { background: url(https://i.imgur.com/SaX4yEQ.png); background-size: cover; color: #b9b9b9; font-size: 10px; font-family: Arimo; }
+
+a:link, a:visited { color: #469cbb; text-decoration: none; transition: all ease 0.5s; -moz-transition: all ease 0.5s; }
+a:hover { color: #d10000; }
+
+::-webkit-scrollbar { width: 5px; background: #000; }
+ 
+::-webkit-scrollbar-track { background: transparent; }
+ 
+::-webkit-scrollbar-thumb { background-color: #1b556b;  border: 2px solid #000;
+}
+
+#navi { position: fixed; width: calc(100% - 40px); top: 0px; left: 0px; padding: 15px 20px 17px 20px; background: rgba(0,7,20,0.85); z-index: 999; }
+
+.tagline { border: 2px solid #363636; padding: 3px 5px; font-family: Overpass Mono; font-size: 13px; display: inline-block; color: #4e7f91; font-weight: 600; -moz-opacity: 1; opacity: 1; transition: all ease 1s; -moz-transition: all ease 1s; margin-right: 15px; }
+.tagline span { font-size: 7px; letter-spacing: 1px; color: #f3f3f3; position: relative; top: -1px; }
+.tagline:hover { -moz-opacity: 0.5; opacity: 0.5; }
+
+.navigation { font-family: Overpass Mono; display: inline-block; color: #f3f3f3; font-size: 8px; letter-spacing: 1px; text-transform: uppercase; }
+.navigation a, .userlinks a { color: #469cbb; border: 1px solid #282d3a; padding: 4px 5px 3px 5px; margin: 0px 4px; transition: all ease 1s; -moz-transition: all ease 1s; }
+.navigation a:hover, .userlinks a:hover { color: #d10000; background: #000714; border: 1px solid #000714; }
+
+.userlinks { float: right; position: relative; top: 9px; text-align: right; font-family: Overpass Mono; display: inline-block; color: #f3f3f3; font-size: 8px; letter-spacing: 1px; text-transform: uppercase; }
+
+#wrapper { width: 1000px; margin: 0 auto; background: rgba(255,255,255,0); text-align: middle; }
+
+.quicklinks { background: rgba(1,25,40,0.75); padding: 5px 10px; width: 935px; position: relative; z-index: 10; margin-top: 80px; display: block; top: 51px; left: 25px; }
+.quicklinks ol { list-style: none; margin: 0px; padding: 0px; counter-reset: navigation; }
+.quicklinks ol li { display: table-cell; padding: 2px 25px 3px 5px; text-transform: uppercase; font-family: Arimo; font-size: 8px; font-weight: 700; letter-spacing: 1px; transition: all ease 1s; color: #bbb; text-align: left; }
+.quicklinks ol li:hover { color: #757575; }
+.quicklinks ol li:before { font-family: 'Mincho', serif; content: counter(navigation, cjk-ideographic);	counter-increment: navigation; display: inline-block; margin-right: 5px; position: relative; top: 2px; font-family: Overpass Mono; font-size: 13px; font-weight: 700; color: #d40f0f; }
+
+#gestaltrp { width: 980px; border: 1px solid rgba(78,127,145,0.35); padding: 10px; overflow: hidden; height: 300px; }
+
+.gestalt { width: 300px; background: url(https://i.imgur.com/Ys28GwI.png) rgba(0,7,20,0.5); background-size: cover; background-position: center; display: table-cell; height: 300px; transition: all ease 2s; -moz-transition: all ease 2s; position: relative; overflow: hidden; }
+
+.screen { background: rgba(0,7,20,0.25); width: 300px; height: 300px; padding: 0px; overflow: hidden; transition: all ease 2s; -moz-transition: all ease 2s; }
+
+.screenslide { transition: all ease 2s; -moz-transition: all ease 2s; position: relative; top: 0px; }
+
+.title { font-family: "Overpass Mono"; font-weight: 700; letter-spacing: 7px; font-size: 28px; text-align: center; color: #bb0000; text-transform: uppercase; line-height: 20px; font-weight: 700; padding-top: 5px; margin: 135px 0px 125px 0px; width: 300px; transition: all ease 2s; -moz-transition: all ease 2s; position: relative; top: 0px; opacity: 1; -moz-opacity: 1; }
+.title span { display: block; font-size: 8px; letter-spacing: 4px; color: #bbbbbb; }
+
+.plot { font-family: Arimo; text-align: justify; letter-spacing: 0px; font-size: 9px; letter-spacing: 1px; line-height: 13px; color: #bbb; opacity: 0; transition: all ease 2s; -moz-transition: all ease 2s; height: 280px; display: table-cell; padding: 0px 40px; vertical-align: middle; padding-top: 20px; }
+.plot b { font-family: Overpass Mono; color: #bb0000; text-transform: uppercase; }
+
+.gestalt:hover .screenslide { top: -300px; }
+.gestalt:hover .title { opacity: 0; -moz-opacity: 0; }
+.gestalt:hover .plot { opacity: 1; -moz-opacity: 1; }
+.gestalt:hover .screen { background: rgba(0,7,20,0.7); }
+
+.replicant { width: 440px; height: 180px; display: table-cell; background: rgba(27,36,52,0.5); padding: 60px 20px 0px 20px; vertical-align: top;  }
+
+.portal { width: 425px; display: table-cell; vertical-align: top; padding: 10px 10px 20px 10px; position: relative; border-top: 0px solid rgba(78,127,145,0.35); border-bottom: 1px solid rgba(78,127,145,0.35); }
+
+.portal-icon { float: left; width: 100px; height: 100px; padding: 7px; border: 1px solid rgba(78,127,145,0.5); background: rgba(0,7,20,0.25); }
+.portal-icon img { width: 100px; height: 100px; transition: all ease 0.4s; -moz-transition: all ease 0.4s; opacity: 1; -moz-opacity: 1; }
+.portal-icon img:hover { opacity: 0.5; -moz-opacity: 0.5; }
+
+.portal-username { display: inline-block; font-family: Overpass Mono; margin-left: 20px; margin-top: 15px; }
+.portal-username a { display: inline-block; font-size: 17px; text-transform: uppercase; color: #bbb; padding-bottom: 3px; margin-bottom: 10px; }
+.portal-username span { font-family: Arimo; font-weight: 700; padding: 3px 5px 2px 5px; text-transform: uppercase; color: #f3f3f3; font-size: 8px; letter-spacing: 1px; margin-right: 4px; }
+.hyperion { background: #2296ad; }
+.selene { background: #92488e; }
+.asteria { background: #af6f18; }
+.prometheus { background: #a93434; }
+.outlier { background: #4340a0; }
+
+.citizen { float: left; background-color: black; padding: 7px 5px 2px 6px; font-size: 8px; color: #f3f3f3; letter-spacing: 1px;  }
+
+.bestof { padding: 14px 0px; text-align: middle; }
+.monthly { display: table-cell; vertical-align: middle; height: 50px; width: 80px; padding: 0px 8px; text-align: middle; }
+.monthly img { padding: 5px 5px 6px 6px; border: 1px solid rgba(255,255,255,0.15); width: 80px; height: 50px; }
+
+.update { width: 200px; background: rgba(0,7,20,0.5); display: table-cell; vertical-align: top; text-align: left; line-height: 14px; }
+.newsfeed { padding: 60px 20px 0px 20px;font-family: Overpass Mono; background: transparent; height: 132px; overflow: hidden; }
+#ticker { text-align: justify; height: 100px; }
+#ticker ul li { font-size: 10px; height: 110px!important; margin-bottom: 10px; }
+#ticker ul li b { display: block; font-size: 15px; color: #bb0000; margin-bottom: 4px; margin-top: 1px; }
+
+.established { background: url(https://78.media.tumblr.com/e5352f3a3e22d36e9d359320f1bc97a8/tumblr_mwjmcxUEoh1qztgoio1_500.gif); background-position: center; background-size: cover; height: 107px; font-size: 13px; color: #f3f3f3; }
+.est { height: 108px; background: rgba(1,25,40,0.75); overflow: hidden; display: table-cell; vertical-align: bottom; width: 200px; font-size: 8px; font-weight: 700; letter-spacing: 1px; transition: all ease 1s; -moz-transition: all ease 1s; }
+.est b { color: #d10000; font-size: 72px; font-family: Mincho; font-weight: bold; position: relative; left: -2px; opacity: 0.5; -moz-opacity: 0.5; top: 32px; -moz-transition: all ease 1s; }
+.est span { float: right; position: relative; top: -60px; left: -10px; }
+.est span b { -moz-opacity: 1; opacity: 1; font-size: 18px; font-family: Overpass Mono; top: 5px; }
+.est:hover { background: rgba(1,25,40,0.5); }
+
+#eventsplash { margin: 40px auto 20px auto; width: 60%; text-align: center; font-family: Overpass Mono; font-size: 20px; background: rgba(27,36,52,0.5); padding: 40px; }
+
+#eventsplash sub { display: block; font-size: 11px;  }
+
+.categorytitle { margin: 30px 0px 30px 0px; font-family: Overpass Mono; font-size: 11px; background: rgba(0,7,20,0); line-height: 18px; letter-spacing: 2px; font-weight: 600; }
+.categorytitle span { padding: 10px 14px; display: inline-block; background: rgba(27,36,52,0.75); font-family: ; letter-spacing: 1px; color: #d10000; margin-right: 10px; }
+
+#s-m-t-tooltip{
+  /* basic */
+  max-width:300px;
+  z-index:10;
+  margin:24px 14px 7px 12px;
+  /* style and design */
+  padding:8px;
+  background: #000714; /* fallback if rgba not supported */
+  background: rgba(0,7,20,0.75);
+  /* font */
+  font-family: Overpass Mono;
+  font-size:9px;
+  line-height:13px;
+  color:#bbb;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#forumrow { width: 100%; margin: 30px 0px; border-top: 1px solid rgba(78,127,145,0.35); border-bottom: 1px solid rgba(78,127,145,0.35); padding: 10px 0px; }
+
+.boardimg { display: table-cell; vertical-align: bottom; width: 280px; ; background: url(https://i.imgur.com/VK7nkxZ.png) rgba(1,25,40,0.75); }
+
+.boardscreen { background: rgba(1,25,40,0.75); width: 280px; height: 140px; transition: all ease 1s; -moz-transition: all ease 1s; }
+.boardscreen:hover { background: rgba(1,25,40,0.25); }
+
+.fr01 .boardname { font-size: 18px; text-transform: lowercase; font-weight: 400; letter-spacing: 2px; font-family: "gira-sans"; }
+.fr01 { display: table-cell; vertical-align: bottom; padding: 20px; background: rgba(0,7,20,0.5); width: 240px; height: 100px; font-family: Overpass Mono; text-align: right; white-space: nowrap; }
+.fr01 .boardstats { padding-top: 10px; margin-top: 5px; letter-spacing: 1px; font-size: 8px; text-transform: uppercase; border-top: 1px solid rgba(78,127,145,0.25); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; width: 240px; display: block; text-align: left; padding-bottom: 2px; }
+.fr01 .boardstats b { border: 1px solid rgba(209,0,0,0.5); padding: 3px 3px 2px 4px; line-height: 13px; color: #f3f3f3; }
+
+.fr02 { display: table-cell; vertical-align: middle; width: 250px; padding: 25px; background: rgba(0,7,20,0.75); }
+.fr02 p { height: 90px; overflow-y: scroll; color: #bbb; font-size: 10px; text-align: justify; padding: 0px; margin: 0px; padding-right: 10px; line-height: 16px; font-family: Overpass Mono; }
+
+.fr03 { display: table-cell; vertical-align: bottom; width: 100px; padding: 20px; background: rgba(27,36,52,0.5); text-align: right; }
+.fr03 span { display: block; font-family: "gira-sans"; letter-spacing: 1px; font-size: 11px; color: #bbb; transform: lowercase; }
+.fr03 span b { color: rgba(209,0,0,0.75); font-size: 20px; }
+
+.subforums { text-align: right; padding-top: 10px; }
+
+.subforums a { font-family: "gira-sans"; text-transform: lowercase; letter-spacing: 1px; padding: 0px 15px; color: #bbb; }
+.subforums a:hover { color: #d10000; }
