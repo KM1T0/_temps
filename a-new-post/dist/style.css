@@ -1,0 +1,148 @@
+.orange, .blue, .green, .red, .yellow, .purple { display: inline-block; margin: 30px!important; }
+
+body { background: #222; font-family: Roboto; font-size: 11px; color: #acacac; text-align: center; }
+
+
+.orange { width: 600px; background: #1b1b1b; margin: 30px auto; border: 10px solid #292929; }
+
+.orange-side { position: relative; display: table-cell; vertical-align: top; width: 250px; background: orangered; text-align: center; }
+
+.orange-side img { width: 75px; height: 75px; padding: 10px; border: 2px solid rgba(255,255,255,0.25); background: rgba(255,255,255,0.15); filter: grayscale(100%); -webkit-filter: grayscale(100%); transition: all ease 1s; margin: 25px; }
+
+.orange-side img:hover { filter: grayscale(0%); -webkit-filter: grayscale(0%); }
+
+.quotes { margin: 0px 25px 25px 25px; color: #fff; font-family: Roboto; text-transform: uppercase; font-size: 7px; letter-spacing: 1px; text-align: justify; font-weight: 500; }
+
+.orange-side-bottom { position: absolute; bottom: 0; background: #ab2e00; padding: 0px 25px; height: 160px; box-sizing: border-box; width: 160px; overflow: hidden; font-family: Roboto Condensed; font-weight: 700; font-size: 11pt; color: white; }
+.orange-side-bottom:before { content:'\e054';
+font-family:'saturnicons'; position:absolute; font-size: 96px; color: rgba(255,255,255,0.1); border: 1px dotted rgba(255,255,255,0.1); width: 130px; height: 130px; text-align: center; line-height: 130px; bottom: 15px; margin-left: -65px; box-sizing: border-box; }
+.orange-tagged { width: 160px; height: 160px; display: table-cell; vertical-align: middle; }
+
+.orange-main { display: table-cell; vertical-align: top; }
+.orange-quote { background: #212121; padding: 20px 50px; width: 440px; box-sizing: border-box; font-family: Roboto Mono; text-transform: uppercase; color: #bbb; letter-spacing: 1px; font-size: 9px; text-align: right; color: orange;  }
+
+.orange-content { padding: 50px; font-family: Roboto; font-size: 8pt; line-height: 140%; text-align: justify; white-space: pre-line; }
+.orange-content b { color: orangered; }
+
+
+
+
+.blue { width: 600px; background: #1b1b1b; margin: 30px auto; border: 10px solid #292929; }
+
+.blue-side { position: relative; display: table-cell; vertical-align: top; width: 250px; background: dodgerblue; text-align: center; }
+
+.blue-side img { width: 75px; height: 75px; padding: 10px; border: 2px solid rgba(255,255,255,0.25); background: rgba(255,255,255,0.15); filter: grayscale(100%); -webkit-filter: grayscale(100%); transition: all ease 1s; margin: 25px; }
+
+.blue-side img:hover { filter: grayscale(0%); -webkit-filter: grayscale(0%); }
+
+.quotes { margin: 0px 25px 25px 25px; color: #fff; font-family: Roboto; text-transform: uppercase; font-size: 7px; letter-spacing: 1px; text-align: justify; font-weight: 500; }
+
+.blue-side-bottom { position: absolute; bottom: 0; background: #006dd8; padding: 0px 25px; height: 160px; box-sizing: border-box; width: 160px; overflow: hidden; font-family: Roboto Condensed; font-weight: 700; font-size: 11pt; color: white; }
+.blue-side-bottom:before { content:'\e180';
+font-family:'saturnicons'; position:absolute; font-size: 96px; color: rgba(255,255,255,0.1); border: 1px dotted rgba(255,255,255,0.1); width: 130px; height: 130px; text-align: center; line-height: 130px; bottom: 15px; margin-left: -65px; box-sizing: border-box; }
+.blue-tagged { width: 160px; height: 160px; display: table-cell; vertical-align: middle; }
+
+.blue-main { display: table-cell; vertical-align: top; }
+.blue-quote { background: #212121; padding: 20px 50px; width: 440px; box-sizing: border-box; font-family: Roboto Mono; text-transform: uppercase; color: #bbb; letter-spacing: 1px; font-size: 9px; text-align: right; color: skyblue; }
+
+.blue-content { padding: 50px; font-family: Roboto; font-size: 8pt; line-height: 140%; text-align: justify; white-space: pre-line; }
+.blue-content b { color: dodgerblue; }
+
+
+
+.green { width: 600px; background: #1b1b1b; margin: 30px auto; border: 10px solid #292929; }
+
+.green-side { position: relative; display: table-cell; vertical-align: top; width: 250px; background: olive; text-align: center; }
+
+.green-side img { width: 75px; height: 75px; padding: 10px; border: 2px solid rgba(255,255,255,0.25); background: rgba(255,255,255,0.15); filter: grayscale(100%); -webkit-filter: grayscale(100%); transition: all ease 1s; margin: 25px; }
+
+.green-side img:hover { filter: grayscale(0%); -webkit-filter: grayscale(0%); }
+
+.quotes { margin: 0px 25px 25px 25px; color: #fff; font-family: Roboto; text-transform: uppercase; font-size: 7px; letter-spacing: 1px; text-align: justify; font-weight: 500; }
+
+.green-side-bottom { position: absolute; bottom: 0; background: #5d5d00; padding: 0px 25px; height: 160px; box-sizing: border-box; width: 160px; overflow: hidden; font-family: Roboto Condensed; font-weight: 700; font-size: 11pt; color: white; }
+.green-side-bottom:before { content:'\e2c0';
+font-family:'saturnicons'; position:absolute; font-size: 96px; color: rgba(255,255,255,0.1); border: 1px dotted rgba(255,255,255,0.1); width: 130px; height: 130px; text-align: center; line-height: 130px; bottom: 15px; margin-left: -65px; box-sizing: border-box; }
+.green-tagged { width: 160px; height: 160px; display: table-cell; vertical-align: middle; }
+
+.green-main { display: table-cell; vertical-align: top; }
+.green-quote { background: #212121; padding: 20px 50px; width: 440px; box-sizing: border-box; font-family: Roboto Mono; text-transform: uppercase; color: #bbb; letter-spacing: 1px; font-size: 9px; text-align: right; color: yellowgreen; }
+
+.green-content { padding: 50px; font-family: Roboto; font-size: 8pt; line-height: 140%; text-align: justify; white-space: pre-line; }
+.green-content b { color: olive; }
+
+
+
+
+
+
+
+.red { width: 600px; background: #1b1b1b; margin: 30px auto; border: 10px solid #292929; }
+
+.red-side { position: relative; display: table-cell; vertical-align: top; width: 250px; background: firebrick; text-align: center; }
+
+.red-side img { width: 75px; height: 75px; padding: 10px; border: 2px solid rgba(255,255,255,0.25); background: rgba(255,255,255,0.15); filter: grayscale(100%); -webkit-filter: grayscale(100%); transition: all ease 1s; margin: 25px; }
+
+.red-side img:hover { filter: grayscale(0%); -webkit-filter: grayscale(0%); }
+
+.quotes { margin: 0px 25px 25px 25px; color: #fff; font-family: Roboto; text-transform: uppercase; font-size: 7px; letter-spacing: 1px; text-align: justify; font-weight: 500; }
+
+.red-side-bottom { position: absolute; bottom: 0; background: #901a1a; padding: 0px 25px; height: 160px; box-sizing: border-box; width: 160px; overflow: hidden; font-family: Roboto Condensed; font-weight: 700; font-size: 11pt; color: white; }
+.red-side-bottom:before { content:'\e244';
+font-family:'saturnicons'; position:absolute; font-size: 96px; color: rgba(255,255,255,0.1); border: 1px dotted rgba(255,255,255,0.1); width: 130px; height: 130px; text-align: center; line-height: 130px; bottom: 15px; margin-left: -65px; box-sizing: border-box; }
+.red-tagged { width: 160px; height: 160px; display: table-cell; vertical-align: middle; }
+
+.red-main { display: table-cell; vertical-align: top; }
+.red-quote { background: #212121; padding: 20px 50px; width: 440px; box-sizing: border-box; font-family: Roboto Mono; text-transform: uppercase; color: #bbb; letter-spacing: 1px; font-size: 9px; text-align: right; color: indianred;  }
+
+.red-content { padding: 50px; font-family: Roboto; font-size: 8pt; line-height: 140%; text-align: justify; white-space: pre-line; }
+.red-content b { color: firebrick; }
+
+
+
+.purple { width: 600px; background: #1b1b1b; margin: 30px auto; border: 10px solid #292929; }
+
+.purple-side { position: relative; display: table-cell; vertical-align: top; width: 250px; background: rebeccapurple; text-align: center; }
+
+.purple-side img { width: 75px; height: 75px; padding: 10px; border: 2px solid rgba(255,255,255,0.25); background: rgba(255,255,255,0.15); filter: grayscale(100%); -webkit-filter: grayscale(100%); transition: all ease 1s; margin: 25px; }
+
+.purple-side img:hover { filter: grayscale(0%); -webkit-filter: grayscale(0%); }
+
+.quotes { margin: 0px 25px 25px 25px; color: #fff; font-family: Roboto; text-transform: uppercase; font-size: 7px; letter-spacing: 1px; text-align: justify; font-weight: 500; }
+
+.purple-side-bottom { position: absolute; bottom: 0; background: #4d2179; padding: 0px 25px; height: 160px; box-sizing: border-box; width: 160px; overflow: hidden; font-family: Roboto Condensed; font-weight: 700; font-size: 11pt; color: white; }
+.purple-side-bottom:before { content:'\e168';
+font-family:'saturnicons'; position:absolute; font-size: 96px; color: rgba(255,255,255,0.1); border: 1px dotted rgba(255,255,255,0.1); width: 130px; height: 130px; text-align: center; line-height: 130px; bottom: 15px; margin-left: -65px; box-sizing: border-box; }
+.purple-tagged { width: 160px; height: 160px; display: table-cell; vertical-align: middle; }
+
+.purple-main { display: table-cell; vertical-align: top; }
+.purple-quote { background: #212121; padding: 20px 50px; width: 440px; box-sizing: border-box; font-family: Roboto Mono; text-transform: uppercase; color: #bbb; letter-spacing: 1px; font-size: 9px; text-align: right; color: mediumpurple;  }
+
+.purple-content { padding: 50px; font-family: Roboto; font-size: 8pt; line-height: 140%; text-align: justify; white-space: pre-line; }
+.purple-content b { color: mediumpurple; }
+
+
+
+
+.yellow { width: 600px; background: #1b1b1b; margin: 30px auto; border: 10px solid #292929; }
+
+.yellow-side { position: relative; display: table-cell; vertical-align: top; width: 250px; background: goldenrod; text-align: center; }
+
+.yellow-side img { width: 75px; height: 75px; padding: 10px; border: 2px solid rgba(255,255,255,0.25); background: rgba(255,255,255,0.15); filter: grayscale(100%); -webkit-filter: grayscale(100%); transition: all ease 1s; margin: 25px; }
+
+.yellow-side img:hover { filter: grayscale(0%); -webkit-filter: grayscale(0%); }
+
+.quotes { margin: 0px 25px 25px 25px; color: #fff; font-family: Roboto; text-transform: uppercase; font-size: 7px; letter-spacing: 1px; text-align: justify; font-weight: 500; }
+
+.yellow-side-bottom { position: absolute; bottom: 0; background: #b97000; padding: 0px 25px; height: 160px; box-sizing: border-box; width: 160px; overflow: hidden; font-family: Roboto Condensed; font-weight: 700; font-size: 11pt; color: white; }
+.yellow-side-bottom:before { content:'\e153';
+font-family:'saturnicons'; position:absolute; font-size: 96px; color: rgba(255,255,255,0.1); border: 1px dotted rgba(255,255,255,0.1); width: 130px; height: 130px; text-align: center; line-height: 130px; bottom: 15px; margin-left: -65px; box-sizing: border-box; }
+.yellow-tagged { width: 160px; height: 160px; display: table-cell; vertical-align: middle; }
+
+.yellow-main { display: table-cell; vertical-align: top; }
+.yellow-quote { background: #212121; padding: 20px 50px; width: 440px; box-sizing: border-box; font-family: Roboto Mono; text-transform: uppercase; color: #bbb; letter-spacing: 1px; font-size: 9px; text-align: right; color: goldenrod;  }
+
+.yellow-content { padding: 50px; font-family: Roboto; font-size: 8pt; line-height: 140%; text-align: justify; white-space: pre-line; }
+.purple-content b { color: mediumpurple; }
+
+img { border-radius: 0% 25%; }
