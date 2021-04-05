@@ -1,0 +1,24 @@
+body { background: #222; font-family: Roboto; font-size: 11px; color: #acacac; }
+
+.rainwanted { width: 600px; height: 300px; background: #121212; margin: 30px auto; overflow: hidden; }
+
+.wanted1 { display: table-cell; vertical-align: middle; width: 400px; height: 300px; padding: 30px; box-sizing: border-box; }
+
+.wanted1 h1 { margin: 10px 0px; font-size: 42px; line-height: 35px; font-family: Roboto Condensed; color: #ccc; text-transform: uppercase;}
+.wanted1 h2 { color: #868686; font-size: 15px; line-height: 16px; text-transform: lowercase; font-family: Roboto Mono; font-weight: 400; }
+.wanted1 h3 { font-size: 9px; letter-spacing: 0px; color: #666; }
+.wanted1 h3 b { color: #ccc; }
+.wanted1 p { font-family: Roboto; font-size: 11px; line-height: 14px; color: #bbb; }
+
+.wanted-sis1, .wanted-sis2, .wanted-sis3, .wanted-sis4 { display: table-cell; width: 200px; height: 300px; box-sizing: border-box; background: #1c1c1c; padding: 20px; text-align: center; filter: grayscale(100%); -webkit-filter: grayscale(100%); transition: all ease 1s; }
+.wantedborder { display: table-cell; vertical-align: middle; border: 1px solid rgba(255,255,255,0.5); width: 200px; height: 260px; box-sizing: border-box; }
+
+.wanted-sis1:hover, .wanted-sis2:hover, .wanted-sis3:hover, .wanted-sis4:hover { filter: grayscale(0%); -webkit-filter: grayscale(0%); }
+
+.wanted-sis1 { background: url(https://image.ibb.co/dbZrQy/image.png) #1c1c1c; }
+
+.wanted-sis2 { background: url(https://image.ibb.co/iogzCd/image.png) #1c1c1c; }
+
+.wanted-sis3 { background: url(https://image.ibb.co/gbjKCd/image.png) #1c1c1c; }
+
+.wanted-sis4 { background: url(https://image.ibb.co/fiMo5y/image.png) #1c1c1c; }
