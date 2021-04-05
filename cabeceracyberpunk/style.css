@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Roboto|Roboto+Mono:100,300,400");
+body {
+  background: #0E0E0E;
+  margin: 0;
+  padding: 0;
+}
+
+.__wrapper {
+  margin: 20px auto;
+  width: 900px;
+  position: relative;
+}
+
+.__cabecera {
+  background: url("https://cdna.artstation.com/p/assets/images/images/005/015/964/large/klaus-wittmann-bandw.jpg?1487879366");
+  background-size: cover;
+  background-position: center;
+  width: 900px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 80px 420px;
+  cursor: crosshair;
+}
+
+.__cabecera:hover .__fondo {
+  width: 390px;
+  height: 420px;
+}
+
+.__cabecera .__titulo {
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 8px;
+  text-transform: uppercase;
+  color: #FFF;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #FFF;
+}
+
+.__cabecera .__titulo span {
+  color: #2196F3;
+  display: block;
+}
+
+.__cabecera .__menu {
+  position: relative;
+  border-bottom: 1px solid #FFF;
+  border-left: 1px solid #FFF;
+}
+
+.__cabecera .__normativa {
+  background: #FFF;
+  color: #2196F3;
+  text-decoration: none;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 300;
+  font-size: 8px;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  position: absolute;
+  right: 20px;
+  bottom: -30px;
+}
+
+.__cabecera .__staff {
+  padding: 20px;
+  text-align: right;
+  font-family: "Roboto", sans-serif;
+  font-size: 8px;
+  text-transform: uppercase;
+  color: #FFF;
+  letter-spacing: 1px;
+}
+
+.__cabecera .__staff span {
+  cursor: pointer;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #FFF;
+}
+
+.__cabecera .__principal {
+  display: grid;
+  grid-template-columns: 60px 390px;
+}
+
+.__cabecera .__frase {
+  position: relative;
+}
+
+.__cabecera .__texto {
+  width: 350px;
+  font-family: "Roboto", sans-serif;
+  font-size: 8px;
+  text-transform: uppercase;
+  color: #FFF;
+  letter-spacing: 1px;
+  transform: rotate(-90deg);
+  position: absolute;
+  bottom: 200px;
+  left: -145px;
+}
+
+.__cabecera .__fondo {
+  background: #FFF;
+  width: 330px;
+  height: 360px;
+  position: absolute;
+  z-index: 150;
+  bottom: 0;
+  left: 60px;
+  transition: all ease 0.45s;
+}
+
+.__cabecera .__datos {
+  background: #FFF;
+  width: 250px;
+  height: 280px;
+  position: relative;
+  z-index: 200;
+  top: 60px;
+  padding: 40px;
+}
+
+.__cabecera .__anuncios {
+  font-family: "IBM Plex Mono", monospace;
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #2196F3;
+  letter-spacing: 1px;
+}
+
+.__cabecera .__anuncios span {
+  font-size: 5px;
+  display: block;
+  color: #000;
+  line-height: 7px;
+}
+
+.__cabecera .__noticias {
+  width: 250px;
+  display: grid;
+  grid-gap: 5px;
+  padding: 80px 0 20px;
+}
+
+.__cabecera .__noticia {
+  font-family: "Roboto Mono", monospace;
+  font-size: 18px;
+  color: #9E9E9E;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.__cabecera .__activa {
+  color: #000;
+}
+
+.__cabecera .__extra {
+  border-left: 1px solid #FFF;
+}
